@@ -4,3 +4,10 @@ Enunciado: Considere um array colors = ["red", "blue", "green"]. Use o método .
 Entrada: ["red", "blue", "green"] */
 
 const prompt = require("prompt-sync")()
+
+const colors = ["red", "blue", "green"]
+    console.log(colors)
+colors.shift()
+    console.log(colors)
+colors.unshift("puple")
+    console.log(colors)

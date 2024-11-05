@@ -7,6 +7,8 @@ const prompt = require("prompt-sync")()
 const   frutas = ["maçã", "banana", "laranja", "uva", "melancia", "abacaxi", "manga", "morango",
 "kiwi", "pera"]
 
+//.toLowerCase() = é usado para distinguir letra maiusculo e minúsculo.
+
 let fruta = prompt("Digite uma fruta: ").toLowerCase()
 
 let encontrado = false

@@ -7,7 +7,10 @@ const array1 = [1, 2, 3]
 
 const array2 = [4, 5, 6]
 
-const tamanhoArray1 = array1.length
+console.log(array1.concat(array2))
+
+
+/*const tamanhoArray1 = array1.length
 const tamanhoArray2 = array1.length
 
 const tamanhoArrayConcatenado = tamanhoArray1 + tamanhoArray2
@@ -22,4 +25,4 @@ for (let i = 0; i < tamanhoArray2.length; i++) {
     arrayConcatenado[i + tamanhoArray1] = array2[i]
     
 }
-console.log(arrayConcatenado)
+console.log(arrayConcatenado)*/

@@ -4,6 +4,7 @@ const prompt = require("prompt-sync")()
 
 let nomes = ["Ana", "Bruno", "Carlos", "Diana"]
 
-for (let i = 0; i < nomes.length - 1; i++) {
+nomes.pop()
+for (let i = 0; i < nomes.length; i++) {
     console.log(nomes[i])   
 }
