@@ -6,3 +6,17 @@ parâmetro formal para registrar se é A.M. ou P.M. Inclua um loop que permita q
 esse cálculo para novos valores de entrada todas as vezes que desejar. */
 
 const prompt = require("prompt-sync")()
+
+function converterHora(hora, minuto) {
+    let horaConvertida = hora
+    let periodo = 'A'
+    horaConvertida = 12
+}
+
+if (hora === 12) {
+    periodo = 'P'
+}
+
+if(hora > 12) {
+    horaConvertida = hora - 12
+}
