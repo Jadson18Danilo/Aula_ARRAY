@@ -9,8 +9,8 @@ para um n informado pelo usuário. Use uma função que receba um valor n inteir
 const prompt = require("prompt-sync")()
 
 function questao02(numero) {
-    let resultado = ''
-    for (let i = 0; i <= numero; i++) {
+let resultado = ''
+for (let i = 0; i <= numero; i++) {
         for (let j = 0; j <= i; j++) {
             resultado += `${j}\t`
             
